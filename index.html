@@ -5532,7 +5532,7 @@ $('exit-btn').onclick = ()=>{
     // Опит за затваряне (работи само в PWA/electron)
     if(window.close) window.close();
     // Fallback
-    document.body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100vh;color:#d4a13c;font-family:Playfair Display,serif;font-size:2rem;background:#05070c">⚔ Благодарим за играта ⚔</div>';
+    document.body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100vh;color:#d4a13c;font-family:Playfair Display,serif;font-size:2rem;background:#05070c">⚔ Благодаря Ви за играта! (Натиснете ESC за изход) ⚔</div>';
   });
 };
 document.querySelectorAll('[data-open]').forEach(b=> b.onclick = ()=>{
